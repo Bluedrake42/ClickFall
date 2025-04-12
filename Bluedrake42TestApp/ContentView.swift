@@ -11,23 +11,23 @@ import SwiftData
 struct ContentView: View {
     var body: some View {
         TabView {
-            HomeView()
+            DashboardView()
                 .tabItem {
-                    Label("Home", systemImage: "house.fill")
+                    Label("Dashboard", systemImage: "figure.walk")
                 }
 
-            ListView()
+            WorkoutsView()
                 .tabItem {
-                    Label("List", systemImage: "list.bullet")
+                    Label("Workouts", systemImage: "flame.fill")
                 }
 
-            SettingsView()
+            ProfileView()
                 .tabItem {
-                    Label("Settings", systemImage: "gear")
+                    Label("Profile", systemImage: "person.fill")
                 }
         }
         // Add a subtle accent color for visual appeal
-        .accentColor(.blue)
+        .accentColor(.green)
     }
 }
 
