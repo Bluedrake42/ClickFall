@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C7EBB80C2DAB21C8006E4206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7EBB7F22DAB21C7006E4206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7EBB7F92DAB21C7006E4206;
+			remoteInfo = Bluedrake42TestApp;
+		};
+		C7EBB8162DAB21C8006E4206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7EBB7F22DAB21C7006E4206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7EBB7F92DAB21C7006E4206;
+			remoteInfo = Bluedrake42TestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7EBB7FA2DAB21C7006E4206 /* Bluedrake42TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bluedrake42TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EBB80B2DAB21C8006E4206 /* Bluedrake42TestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bluedrake42TestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EBB8152DAB21C8006E4206 /* Bluedrake42TestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bluedrake42TestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C7EBB81D2DAB21C8006E4206 /* Exceptions for "Bluedrake42TestApp" folder in "Bluedrake42TestApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C7EBB7F92DAB21C7006E4206 /* Bluedrake42TestApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C7EBB7FC2DAB21C7006E4206 /* Bluedrake42TestApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C7EBB81D2DAB21C8006E4206 /* Exceptions for "Bluedrake42TestApp" folder in "Bluedrake42TestApp" target */,
+			);
+			path = Bluedrake42TestApp;
+			sourceTree = "<group>";
+		};
+		C7EBB80E2DAB21C8006E4206 /* Bluedrake42TestAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Bluedrake42TestAppTests;
+			sourceTree = "<group>";
+		};
+		C7EBB8182DAB21C8006E4206 /* Bluedrake42TestAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Bluedrake42TestAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7EBB7F72DAB21C7006E4206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EBB8082DAB21C8006E4206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EBB8122DAB21C8006E4206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7EBB7F12DAB21C7006E4206 = {
+			isa = PBXGroup;
+			children = (
+				C7EBB7FC2DAB21C7006E4206 /* Bluedrake42TestApp */,
+				C7EBB80E2DAB21C8006E4206 /* Bluedrake42TestAppTests */,
+				C7EBB8182DAB21C8006E4206 /* Bluedrake42TestAppUITests */,
+				C7EBB7FB2DAB21C7006E4206 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7EBB7FB2DAB21C7006E4206 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7EBB7FA2DAB21C7006E4206 /* Bluedrake42TestApp.app */,
+				C7EBB80B2DAB21C8006E4206 /* Bluedrake42TestAppTests.xctest */,
+				C7EBB8152DAB21C8006E4206 /* Bluedrake42TestAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7EBB7F92DAB21C7006E4206 /* Bluedrake42TestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7EBB81E2DAB21C8006E4206 /* Build configuration list for PBXNativeTarget "Bluedrake42TestApp" */;
+			buildPhases = (
+				C7EBB7F62DAB21C7006E4206 /* Sources */,
+				C7EBB7F72DAB21C7006E4206 /* Frameworks */,
+				C7EBB7F82DAB21C7006E4206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C7EBB7FC2DAB21C7006E4206 /* Bluedrake42TestApp */,
+			);
+			name = Bluedrake42TestApp;
+			packageProductDependencies = (
+			);
+			productName = Bluedrake42TestApp;
+			productReference = C7EBB7FA2DAB21C7006E4206 /* Bluedrake42TestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7EBB80A2DAB21C8006E4206 /* Bluedrake42TestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7EBB8232DAB21C8006E4206 /* Build configuration list for PBXNativeTarget "Bluedrake42TestAppTests" */;
+			buildPhases = (
+				C7EBB8072DAB21C8006E4206 /* Sources */,
+				C7EBB8082DAB21C8006E4206 /* Frameworks */,
+				C7EBB8092DAB21C8006E4206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7EBB80D2DAB21C8006E4206 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C7EBB80E2DAB21C8006E4206 /* Bluedrake42TestAppTests */,
+			);
+			name = Bluedrake42TestAppTests;
+			packageProductDependencies = (
+			);
+			productName = Bluedrake42TestAppTests;
+			productReference = C7EBB80B2DAB21C8006E4206 /* Bluedrake42TestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7EBB8142DAB21C8006E4206 /* Bluedrake42TestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7EBB8262DAB21C8006E4206 /* Build configuration list for PBXNativeTarget "Bluedrake42TestAppUITests" */;
+			buildPhases = (
+				C7EBB8112DAB21C8006E4206 /* Sources */,
+				C7EBB8122DAB21C8006E4206 /* Frameworks */,
+				C7EBB8132DAB21C8006E4206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7EBB8172DAB21C8006E4206 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C7EBB8182DAB21C8006E4206 /* Bluedrake42TestAppUITests */,
+			);
+			name = Bluedrake42TestAppUITests;
+			packageProductDependencies = (
+			);
+			productName = Bluedrake42TestAppUITests;
+			productReference = C7EBB8152DAB21C8006E4206 /* Bluedrake42TestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7EBB7F22DAB21C7006E4206 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					C7EBB7F92DAB21C7006E4206 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					C7EBB80A2DAB21C8006E4206 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = C7EBB7F92DAB21C7006E4206;
+					};
+					C7EBB8142DAB21C8006E4206 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = C7EBB7F92DAB21C7006E4206;
+					};
+				};
+			};
+			buildConfigurationList = C7EBB7F52DAB21C7006E4206 /* Build configuration list for PBXProject "Bluedrake42TestApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7EBB7F12DAB21C7006E4206;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C7EBB7FB2DAB21C7006E4206 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7EBB7F92DAB21C7006E4206 /* Bluedrake42TestApp */,
+				C7EBB80A2DAB21C8006E4206 /* Bluedrake42TestAppTests */,
+				C7EBB8142DAB21C8006E4206 /* Bluedrake42TestAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7EBB7F82DAB21C7006E4206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EBB8092DAB21C8006E4206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EBB8132DAB21C8006E4206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7EBB7F62DAB21C7006E4206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EBB8072DAB21C8006E4206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EBB8112DAB21C8006E4206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7EBB80D2DAB21C8006E4206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7EBB7F92DAB21C7006E4206 /* Bluedrake42TestApp */;
+			targetProxy = C7EBB80C2DAB21C8006E4206 /* PBXContainerItemProxy */;
+		};
+		C7EBB8172DAB21C8006E4206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7EBB7F92DAB21C7006E4206 /* Bluedrake42TestApp */;
+			targetProxy = C7EBB8162DAB21C8006E4206 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C7EBB81F2DAB21C8006E4206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Bluedrake42TestApp/Bluedrake42TestApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8G42BH4NVF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bluedrake42TestApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluedrake42.Bluedrake42TestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7EBB8202DAB21C8006E4206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Bluedrake42TestApp/Bluedrake42TestApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8G42BH4NVF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bluedrake42TestApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluedrake42.Bluedrake42TestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7EBB8212DAB21C8006E4206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8G42BH4NVF;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7EBB8222DAB21C8006E4206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8G42BH4NVF;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7EBB8242DAB21C8006E4206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8G42BH4NVF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluedrake42.Bluedrake42TestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluedrake42TestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bluedrake42TestApp";
+			};
+			name = Debug;
+		};
+		C7EBB8252DAB21C8006E4206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8G42BH4NVF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluedrake42.Bluedrake42TestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluedrake42TestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bluedrake42TestApp";
+			};
+			name = Release;
+		};
+		C7EBB8272DAB21C8006E4206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8G42BH4NVF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluedrake42.Bluedrake42TestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bluedrake42TestApp;
+			};
+			name = Debug;
+		};
+		C7EBB8282DAB21C8006E4206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8G42BH4NVF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluedrake42.Bluedrake42TestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bluedrake42TestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7EBB7F52DAB21C7006E4206 /* Build configuration list for PBXProject "Bluedrake42TestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EBB8212DAB21C8006E4206 /* Debug */,
+				C7EBB8222DAB21C8006E4206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7EBB81E2DAB21C8006E4206 /* Build configuration list for PBXNativeTarget "Bluedrake42TestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EBB81F2DAB21C8006E4206 /* Debug */,
+				C7EBB8202DAB21C8006E4206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7EBB8232DAB21C8006E4206 /* Build configuration list for PBXNativeTarget "Bluedrake42TestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EBB8242DAB21C8006E4206 /* Debug */,
+				C7EBB8252DAB21C8006E4206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7EBB8262DAB21C8006E4206 /* Build configuration list for PBXNativeTarget "Bluedrake42TestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EBB8272DAB21C8006E4206 /* Debug */,
+				C7EBB8282DAB21C8006E4206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7EBB7F22DAB21C7006E4206 /* Project object */;
+}
