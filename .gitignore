@@ -49,4 +49,24 @@ Carthage/Build/
 
 ## Accio dependency manager
 Dependencies/
-.accio/ 
+.accio/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+VENU/
+*.egg-info/
+.installed.cfg
+*.egg
+instance/
+.webassets-cache
+
+# Flask specific files
+.flaskenv
+*.sqlite3 
